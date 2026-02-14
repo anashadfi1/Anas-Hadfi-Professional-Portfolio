@@ -103,24 +103,24 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
+        title: 'Real Estate Preditiction',
+        description: 'Machine Learning',
+        bgImage: '/real_estate.jpg',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
+        title: 'Gaming Analytics',
+        description: 'Data Science',
+        bgImage: '/gaming.jpg',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
+        title: 'Language Model',
+        description: 'Data Science',
+        bgImage: '/language_model.jpg',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
+        title: 'Titanic survivors',
+        description: 'Data Science',
+        bgImage: '/titanic_survivors.jpg',
     },
 ]
 
