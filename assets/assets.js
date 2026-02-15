@@ -48,7 +48,9 @@ import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import pytorch_logo from './pytorch-logo.png'
 import git_logo from './git-logo.png'
+import pepper_airplane from './pepper-airplane.svg'
 export const assets = {
+    pepper_airplane,
     git_logo,
     pytorch_logo,
     js_icon,
@@ -132,7 +134,7 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'R, Python, Pandas, Numpy, scikit-learn, FastAPi, JavaScript, React Js, Next Js,SQL, Excel, PowerBI' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Python, Java, C#,Javscript, Tyescript' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Software and Networks engineer, specialized in Computer Science' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];

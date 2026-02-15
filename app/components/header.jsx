@@ -14,14 +14,14 @@ const Header = () => {
          <h1 className='tezt-3xl sm:text:6xl lg:text-[66px] font-Ovo'>
             Data Analyst based in Morocco
         </h1>
-        <p className='max-w-2xl mx-auto font-ovo'>'
+        <p className='max-w-2xl mx-auto font-ovo'>
             I am a data analyst with a passion for transforming raw data into actionable insights. My expertise lies in data visualization, statistical analysis, and machine learning. 
             I thrive on solving complex problems and delivering data-driven solutions that drive business success.
         </p>
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
             <a href="#contact"
-            className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2'> contact me </a>
-             <a href="/sample-resume.pdf" download 
+            className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2'> contact me <Image src={assets.right_arrow_bold_dark} alt='' className='w-4'/></a>
+             <a href="/Anas-Hadfi-resume.pdf" download 
              className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2'> my resume <Image src={assets.download_icon} alt='' className='w-4'/></a>
         </div>
     </div>
