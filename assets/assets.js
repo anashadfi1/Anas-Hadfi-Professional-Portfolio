@@ -48,9 +48,9 @@ import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import pytorch_logo from './pytorch-logo.png'
 import git_logo from './git-logo.png'
-import pepper_airplane from './pepper-airplane.svg'
+import typescript_logo from './typescript_logo.png'
 export const assets = {
-    pepper_airplane,
+    typescript_logo,
     git_logo,
     pytorch_logo,
     js_icon,
@@ -140,5 +140,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.js_icon,assets.react_icon,assets.next_icon,assets.tailwind_icon ,assets.python_icon, assets.numpy_icon,assets.fastapi_icon,assets.sklearn_icon,assets.pytorch_logo,assets.r_icon, assets.git_logo, assets.powerbi
+    assets.js_icon,assets.react_icon,assets.next_icon,assets.typescript_logo ,assets.python_icon, assets.numpy_icon,assets.fastapi_icon,assets.sklearn_icon,assets.pytorch_logo,assets.r_icon, assets.git_logo, assets.powerbi
 ];
