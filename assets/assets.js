@@ -49,7 +49,13 @@ import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import pytorch_logo from './pytorch-logo.png'
 import git_logo from './git-logo.png'
 import typescript_logo from './typescript_logo.png'
+import php from './php.png'
+import symfony from './symfony.png'
+import laravel from './laravel.png'
 export const assets = {
+    php,
+    laravel,
+    symfony,
     typescript_logo,
     git_logo,
     pytorch_logo,
@@ -140,5 +146,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.js_icon,assets.react_icon,assets.next_icon,assets.typescript_logo ,assets.python_icon, assets.numpy_icon,assets.fastapi_icon,assets.sklearn_icon,assets.pytorch_logo,assets.r_icon, assets.git_logo, assets.powerbi
+    assets.js_icon,assets.typescript_logo,assets.react_icon,assets.next_icon, assets.php,assets.laravel, assets.symfony,assets.python_icon, assets.numpy_icon,assets.fastapi_icon, assets.git_logo, assets.powerbi
 ];

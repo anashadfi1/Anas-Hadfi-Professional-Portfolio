@@ -42,7 +42,7 @@ const Navbar = () => {
         <ul
           ref={sideMenuRef}
           className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full 
-          px-12 py-3 ${isScroll? "":"bg-white bg-opacity-50 backdrop-blur-lg  shadow-sm"}`}
+          px-12 py-3 ${isScroll? "":" bg-opacity-50 backdrop-blur-lg  shadow-sm"}`}
         >
             <li> <a className='font-Ovo' href="#top">Home</a></li>
             <li> <a className='font-Ovo' href="#about">About me</a></li>
