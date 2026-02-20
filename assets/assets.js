@@ -52,7 +52,11 @@ import typescript_logo from './typescript_logo.png'
 import php from './php.png'
 import symfony from './symfony.png'
 import laravel from './laravel.png'
+import java_logo from './Java-Logo.png'
+import spring_logo from'./spring_logo.png'
 export const assets = {
+    spring_logo,
+    java_logo,
     php,
     laravel,
     symfony,
@@ -146,5 +150,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.js_icon,assets.typescript_logo,assets.react_icon,assets.next_icon, assets.php,assets.laravel, assets.symfony,assets.python_icon, assets.numpy_icon,assets.fastapi_icon, assets.git_logo, assets.powerbi
+    assets.js_icon,assets.typescript_logo,assets.react_icon,assets.next_icon, assets.php,assets.laravel, assets.symfony,assets.python_icon, assets.numpy_icon,assets.fastapi_icon, assets.git_logo, assets.powerbi, assets.java_logo, assets.spring_logo,
 ];

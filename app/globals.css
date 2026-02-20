@@ -9,4 +9,5 @@
   --font-Ovo: "Ovo", serif;
   --shadow-dark: 4px 4px 0 #000;
   --shadow-light: 4px 4px 0 #fff;
+  --dark-mode: selector;
 }

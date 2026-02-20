@@ -18,9 +18,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="scroll-smooth">
+    // 'dark' here triggers the selector strategy defined in your globals.css
+    <html lang="en" className="scroll-smooth ">
       <body
-        className={`${outfit.className} ${ovo.className} antialiased`}
+        className={`${outfit.variable} ${ovo.variable}`}
       >
         {children}
       </body>
