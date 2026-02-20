@@ -132,7 +132,7 @@ export const workData = [
     {
         title: 'Titanic survivors',
         description: 'Data Science',
-        bgImage: '/titanic_survivors.jpg',
+        bgImage: '/titanic.jpg',
     },
 ]
 
