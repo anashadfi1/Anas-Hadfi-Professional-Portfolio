@@ -54,7 +54,15 @@ import symfony from './symfony.png'
 import laravel from './laravel.png'
 import java_logo from './Java-Logo.png'
 import spring_logo from'./spring_logo.png'
+import csharp from './csharp.png'
+import asp from './asp.png'
+import angular from './Angular.png'
+import dotnet from './dotnet.png'
 export const assets = {
+    dotnet,
+    angular,
+    asp,
+    csharp,
     spring_logo,
     java_logo,
     php,
@@ -144,11 +152,11 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Python, Java, C#,Javscript, Tyescript' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Software and Networks engineer, specialized in Computer Science' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'C#, .NET Core, Java, Javascript, Tyescript' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Software Engineer' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
 
 export const toolsData = [
-    assets.js_icon,assets.typescript_logo,assets.react_icon,assets.next_icon, assets.php,assets.laravel, assets.symfony,assets.python_icon, assets.numpy_icon,assets.fastapi_icon, assets.git_logo, assets.powerbi, assets.java_logo, assets.spring_logo,
+    assets.typescript_logo,assets.react_icon,assets.angular, assets.csharp, assets.dotnet,assets.asp,  assets.java_logo, assets.spring_logo,
 ];

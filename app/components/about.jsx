@@ -3,7 +3,7 @@ import React from 'react'
 import { assets, infoList } from '@/assets/assets'
 import Image from 'next/image'
 import { toolsData } from '@/assets/assets'
-import { motion } from 'motion/react'
+import { motion } from "motion/react"
 const About = () => {
   return (
     <motion.div id='about' className='w-full px-[12%] py-10 scroll-mt-20'
@@ -28,14 +28,14 @@ const About = () => {
             <div className='flex w-full flex-col lg:flex-row items-center gap-20 my-20'>
   
  
-  <div className='flex-shrink-0 w-72 sm:w-80 lg:w-[420px]'
+  <div className='w-64 sm:w-80 rounded-3xl max-w-none'
         initial={{opacity:0, scal:0.9}}
         whileInView={{opacity:1,y:0}}
         transition={{duration:0.6}}>
     <Image
       src={assets.user_image}
       alt="user"
-      className='w-full h-auto rounded-3xl object-cover'
+      className='w-full rounded-3xl'
       priority
     />
   </div>
@@ -72,7 +72,7 @@ const About = () => {
                 whileInView={{opacity:1}}
                 transition={{delay:1.3, duration:0.5}}>Tools I use</motion.h4>
 
-    <motion.ul className='grid grid-cols-5 gap-3 sm:gap-5'
+    <motion.ul className='grid grid-cols-8 gap-3 sm:gap-5'
                 initial={{opacity:0}}
                 whileInView={{opacity:1}}
                 transition={{delay:1.5, duration:0.6}}>
