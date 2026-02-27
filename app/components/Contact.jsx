@@ -32,10 +32,11 @@ const Contact = () => {
                   whileInView={{opacity:1}}
                   transition={{delay:0.9,duration:0.5}}>
             <div className='grid grid-cols-auto gap-6 mt-10 mb-8'>
+              <div className='flex'>
                 <motion.input type="text" 
                 required
                 className='flex-1 p-3 outline-none border-[0.5px] 
-                            border-gray-400 rounded-md bg-white'
+                            border-gray-400 rounded-md bg-white mr-2'
                 placeholder='Enter your name'
                 initial={{y:20, opacity:0}}
                 whileInView={{y:0, opacity:1}}
@@ -43,10 +44,11 @@ const Contact = () => {
                 <motion.input type="email" placeholder='Enter your e-mail' 
                 required
                 className='flex-1 p-3 outline-none border-[0.5px] 
-                            border-gray-400 rounded-md bg-white'
+                            border-gray-400 rounded-md bg-white ml-2'
                 initial={{y:20, opacity:0}}
                 whileInView={{y:0, opacity:1}}
                 transition={{duration:0.6, delay:1.2}}/>
+              </div>
             </div>
             <motion.textarea rows="6"  
             placeholder='Enter your messaage' 
@@ -59,7 +61,7 @@ const Contact = () => {
             ></motion.textarea>
             <motion.button type='submit' 
                             className='py-3 px-8 w-max flex items-center justify-between 
-                                gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500'
+                                gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500 mt-[10px]'
                          
                           whileHover={{scale:1.05}}
                           transition={{duration:0.3}}
