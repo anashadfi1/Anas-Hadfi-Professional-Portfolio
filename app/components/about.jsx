@@ -70,12 +70,12 @@ const About = () => {
     <motion.h4 className='my-6 text-gray-700 font-Ovo'
                 initial={{opacity:0}}
                 whileInView={{opacity:1}}
-                transition={{delay:1.3, duration:0.5}}>Tools I use</motion.h4>
+                transition={{delay:0.8, duration:0.3}}>Tools I use</motion.h4>
 
     <motion.ul className='flex gap-3'
                 initial={{opacity:0}}
                 whileInView={{opacity:1}}
-                transition={{delay:1.5, duration:0.6}}>
+                transition={{delay:0.9, duration:0.4}}>
       {toolsData.map((tool, index) => (
         <motion.li
           whileHover={{scale:1.1}}
