@@ -42,7 +42,7 @@ const Navbar = () => {
         <ul
           ref={sideMenuRef}
           className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full 
-          px-12 py-3 ${isScroll? "":" bg-opacity-50 backdrop-blur-lg  shadow-sm"}`}
+          px-12 py-3 ${isScroll? "":"bg-opacity-50 backdrop-blur-lg  shadow-sm"}`}
         >
             <li> <a className='font-Ovo' href="#top">Home</a></li>
             <li> <a className='font-Ovo' href="#about">About me</a></li>
@@ -50,7 +50,7 @@ const Navbar = () => {
             <li> <a className='font-Ovo' href="#contact">Contact me</a></li>
         </ul>
         <div className='flex items-center gap-4'>
-            <button><Image src={assets.moon_icon} alt='' className='w-6'/></button>
+            {/* <button><Image src={assets.moon_icon} alt='' className='w-6'/></button> */}
             <a href="#contact" className='font-Ovo hidden h-10 lg:flex items-center gap-3 px-10 border border-gray-500 rounded-full ml-4'>Contact
               <Image alt='' src={assets.arrow_icon} className='w-3 cursor-pointer'/></a>
             <button className='block md:hidden ml-3' onClick={openMenu}>

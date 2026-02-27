@@ -13,11 +13,11 @@ const Contact = () => {
                     transition={{duration:1}}
         >
         <motion.h4 className='text-center mb-2 text-lg font-Ovo'
-                    initial={{y:-20, opacity:0}}
+                    initial={{y:20, opacity:0}}
                     whileInView={{y:0, opacity:1}}
                     transition={{duration:0.5, delay:0.3}}>Connect With Me</motion.h4>
         <motion.h2 className='text-center text-5xl font-Ovo'
-                    initial={{y:-20, opacity:0}}
+                    initial={{y:20, opacity:0}}
                     whileInView={{y:0, opacity:1}}
                     transition={{duration:0.5, delay:0.5}}
         >Get in touch</motion.h2>
@@ -37,15 +37,15 @@ const Contact = () => {
                 className='flex-1 p-3 outline-none border-[0.5px] 
                             border-gray-400 rounded-md bg-white'
                 placeholder='Enter your name'
-                initial={{x:-50, opacity:0}}
-                whileInView={{x:0, opacity:1}}
+                initial={{y:20, opacity:0}}
+                whileInView={{y:0, opacity:1}}
                 transition={{duration:0.6, delay:1.1}}/>
                 <motion.input type="email" placeholder='Enter your e-mail' 
                 required
                 className='flex-1 p-3 outline-none border-[0.5px] 
                             border-gray-400 rounded-md bg-white'
-                initial={{x:50, opacity:0}}
-                whileInView={{x:0, opacity:1}}
+                initial={{y:20, opacity:0}}
+                whileInView={{y:0, opacity:1}}
                 transition={{duration:0.6, delay:1.2}}/>
             </div>
             <motion.textarea rows="6"  
@@ -53,7 +53,7 @@ const Contact = () => {
             required
             className='w-full p-4 outline-none border-[0.5px] border-gray-400
                         rounded-md bg-white md-6'
-            initial={{y:100, opacity:0}}
+            initial={{y:20, opacity:0}}
             whileInView={{y:0, opacity:1}}
             transition={{duration:0.6, delay:1.3}}
             ></motion.textarea>

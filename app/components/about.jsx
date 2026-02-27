@@ -72,7 +72,7 @@ const About = () => {
                 whileInView={{opacity:1}}
                 transition={{delay:1.3, duration:0.5}}>Tools I use</motion.h4>
 
-    <motion.ul className='grid grid-cols-8 gap-3 sm:gap-5'
+    <motion.ul className='flex gap-3'
                 initial={{opacity:0}}
                 whileInView={{opacity:1}}
                 transition={{delay:1.5, duration:0.6}}>
