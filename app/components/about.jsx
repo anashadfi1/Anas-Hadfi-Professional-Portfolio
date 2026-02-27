@@ -12,11 +12,11 @@ const About = () => {
     transition={{duration:1}}
     >
         <motion.h4 className='text-center mb-2 text-lg font-Ovo'
-        initial={{opacity:0, y:-20}}
+        initial={{opacity:0, y:20}}
         whileInView={{opacity:1,y:0}}
         transition={{duration:0.5, delay:0.3}}>Introduction</motion.h4>
         <motion.h2 className='text-center text-5xl font-Ovo'
-        initial={{opacity:0, y:-20}}
+        initial={{opacity:0, y:20}}
         whileInView={{opacity:1,y:0}}
         transition={{duration:0.5, delay:0.5}}
 
@@ -41,7 +41,7 @@ const About = () => {
   </div>
 
   <motion.div className='flex-1'
-        initial={{opacity:0, y:-20}}
+        initial={{opacity:0, y:20}}
         whileInView={{opacity:1,y:0}}
         transition={{duration:0.6, delay:0.8}}>
     <p className='mb-10 max-w-2xl font-Ovo'>
