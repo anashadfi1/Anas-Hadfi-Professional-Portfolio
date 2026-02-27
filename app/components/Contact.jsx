@@ -31,7 +31,7 @@ const Contact = () => {
                   initial={{opacity:0}}
                   whileInView={{opacity:1}}
                   transition={{delay:0.9,duration:0.5}}>
-            <div className='grid grid-cols-auto gap-6 mt-10 mb-8'>
+            <div className='grid grid-cols-auto gap-6 mt-10 mb-3'>
               <div className='flex'>
                 <motion.input type="text" 
                 required
@@ -53,8 +53,8 @@ const Contact = () => {
             <motion.textarea rows="6"  
             placeholder='Enter your messaage' 
             required
-            className='w-full p-4 outline-none border-[0.5px] border-gray-400
-                        rounded-md bg-white md-6'
+            className="w-full p-4 outline-none border-[0.5px] border-gray-400
+                      rounded-md bg-white mt-3"
             initial={{y:20, opacity:0}}
             whileInView={{y:0, opacity:1}}
             transition={{duration:0.6, delay:1.3}}
