@@ -65,7 +65,7 @@ const Contact = () => {
                          
                           whileHover={{scale:1.05}}
                           transition={{duration:0.3}}
-                          >submit <Image src={assets.right_arrow_white} alt='' className='w-4'/></motion.button>
+                          >Submit now<Image src={assets.right_arrow_white} alt='' className='w-4'/></motion.button>
         </motion.form>
     </motion.div>
   )
