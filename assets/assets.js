@@ -56,7 +56,9 @@ import asp from './asp.png'
 import angular from './Angular.png'
 import langchain_logo from "./langchain_logo.png"
 import dark_pandas from "./dark_pandas.png"
+import jupyter from "./jupyter.png"
 export const assets = {
+    jupyter,
     dark_pandas,
     langchain_logo,
     light_logo,
@@ -155,5 +157,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.python_icon, assets.numpy_icon,  assets.dark_pandas,assets.sklearn_icon,assets.pytorch_logo, langchain_logo, assets.r_icon, assets.powerbi
+    assets.python_icon, assets.numpy_icon,  assets.dark_pandas,assets.sklearn_icon,assets.pytorch_logo, langchain_logo,jupyter, assets.r_icon, assets.powerbi
 ];

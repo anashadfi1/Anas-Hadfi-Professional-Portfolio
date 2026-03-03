@@ -11,11 +11,11 @@ const Work = () => {
         whileInView={{opacity:1}}
         transition={{duration:0.8, delay:1}}>
         <motion.h4 className='text-center mb-2 text-lg font-Ovo'
-        initial={{y:-20, opacity:0}}
+        initial={{y:20, opacity:0}}
         whileInView={{y:0,opacity:1}}
         transition={{delay:0.3, duration:0.5}}>Work</motion.h4>
         <motion.h2 className='text-center text-5xl font-Ovo'
-        initial={{y:-20, opacity:0}}
+        initial={{y:20, opacity:0}}
         whileInView={{y:0,opacity:1}}
         transition={{delay:0.5, duration:0.5}}>My projects</motion.h2>
         <motion.p
