@@ -4,22 +4,21 @@ import Image from 'next/image'
 const Footer = () => {
   return (
     <div >
-        <div className='text-center'>
-            <Image src={assets.logo} alt='' className='w-36 mx-auto mb-2'/>
+        <div className='text-center font-Ovo'>
+            <Image src={assets.dark_logo} alt='' className='w-36 mx-auto mb-2'/>
             <div className="flex items-center justify-center gap-4">
-            <Image src={assets.mail_icon} alt="Email icon" className="w-5" />
+            <Image src={assets.mail_icon} alt="Email icon" className="w-5 " />
             <span>anashadfi1@gmail.com</span>
             </div>
             
         </div>
         <div className='text-center sm:flex items-center justify-between border-t
-                        border-gray-400 mx-[10%] mt-12 py-6'>
+                        border-gray-400 mx-[10%] mt-12 py-6m'>
         
-            <p>&copy;Anas Hadfi. All rights reserverd</p>
+            <p>&copy;Anas Hadfi 2026. Built with Next.js </p>
         <ul className='flex items-center gap-10 justify-center mt-4 sm:mt-0'>
             <li><a href="https://github.com/anashadfi1">Github</a></li>
             <li><a href="https://www.linkedin.com/in/anas-hadfi/">Linkedin</a></li>
-            <li><a href="https://www.hackerrank.com/profile/anashadfi1">Hackerrank</a></li>
         </ul>
         </div>
     </div>

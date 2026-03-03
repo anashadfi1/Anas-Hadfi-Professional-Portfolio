@@ -22,8 +22,8 @@ import figma from './figma.png';
 import git from './git.png';
 import mongodb from './mongodb.png';
 import right_arrow_white from './right-arrow-white.png';
-import logo from './logo.png';
-import logo_dark from './logo_dark.png';
+import light_logo from './light_logo.png';
+import dark_logo from './dark_logo.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
 import profile_img from './profile-img.png';
@@ -49,25 +49,24 @@ import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import pytorch_logo from './pytorch-logo.png'
 import git_logo from './git-logo.png'
 import typescript_logo from './typescript_logo.png'
-import php from './php.png'
-import symfony from './symfony.png'
-import laravel from './laravel.png'
 import java_logo from './Java-Logo.png'
 import spring_logo from'./spring_logo.png'
 import csharp from './csharp.png'
 import asp from './asp.png'
 import angular from './Angular.png'
-import dotnet from './dotnet.png'
+import langchain_logo from "./langchain_logo.png"
+import dark_pandas from "./dark_pandas.png"
 export const assets = {
-    dotnet,
+    dark_pandas,
+    langchain_logo,
+    light_logo,
+    dark_logo,
     angular,
     asp,
     csharp,
     spring_logo,
     java_logo,
-    php,
-    laravel,
-    symfony,
+   
     typescript_logo,
     git_logo,
     pytorch_logo,
@@ -95,8 +94,6 @@ export const assets = {
     git,
     mongodb,
     right_arrow_white,
-    logo,
-    logo_dark,
     mail_icon,
     mail_icon_dark,
     profile_img,
@@ -158,5 +155,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.typescript_logo,assets.react_icon,assets.angular, assets.csharp, assets.dotnet,assets.asp,  assets.java_logo, assets.spring_logo,
+    assets.python_icon, assets.numpy_icon,  assets.dark_pandas,assets.sklearn_icon,assets.pytorch_logo, langchain_logo, assets.r_icon, assets.powerbi
 ];

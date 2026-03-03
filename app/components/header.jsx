@@ -34,7 +34,7 @@ const Header = () => {
         initial={{opacity:0}}
         whileInView={{opacity:1}}
         transition={{duration:0.6, delay:0.7}}
-        className='max-w-2xl mx-auto font-ovo'>
+        className='max-w-2xl mx-auto font-Ovo'>
             I am a data analyst with a passion for transforming raw data into actionable insights. My expertise lies in data visualization, statistical analysis, and machine learning. 
             I thrive on solving complex problems and delivering data-driven solutions that drive business success.
         </motion.p>
