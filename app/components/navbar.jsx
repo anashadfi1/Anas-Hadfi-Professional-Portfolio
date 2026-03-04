@@ -37,7 +37,7 @@ const Navbar = () => {
       }`}
 >
         <a href="#top">
-            <Image alt='' src={assets.dark_logo} className='w-15 alt="" cursor-pointer mr-14 '/>
+            <Image alt='' src={assets.dark_logo} className='w-10 alt="" cursor-pointer mr-14 '/>
         </a>
         <ul
           ref={sideMenuRef}

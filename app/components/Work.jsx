@@ -23,7 +23,7 @@ const Work = () => {
             whileInView={{opacity:1}}
             transition={{delay:0.7, duration:0.5}}
                 className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-                    Welcome to my Data Portfolio! Explore a collection of projects showcasing my expertise in Data Science, analytics and engineering.
+                   {/* Explore a collection of projects showcasing my expertise in Data Science, analytics and engineering. */}
         </motion.p>
         <motion.div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 my-10'
         initial={{opacity:0}}
