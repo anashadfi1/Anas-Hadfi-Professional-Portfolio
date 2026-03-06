@@ -21,23 +21,23 @@ const Header = () => {
         transition={{duration:0.6, delay:0.3}}
         className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo'
         >Hi! I'm Anas Hadfi 
-         <Image src={assets.hand_icon} alt='' className='w-10'/>
+         
          </motion.h3>
-         <motion.h1 
+         <motion.h2 
         initial={{y:30, opacity:0}}
         whileInView={{y:0, opacity:1}}
         transition={{duration:0.8, delay:0.5}}
          className='tezt-3xl sm:text:6xl lg:text-[66px] font-Ovo'>
-            Data Analyst based in Morocco
-        </motion.h1>
-        <motion.p 
+            Data Analyst 
+        </motion.h2>
+        <motion.h3
         initial={{opacity:0}}
         whileInView={{opacity:1}}
         transition={{duration:0.6, delay:0.7}}
         className='max-w-2xl mx-auto font-Ovo'>
-            I am a data analyst with a passion for transforming raw data into actionable insights. My expertise lies in data visualization, statistical analysis, and machine learning. 
-            I thrive on solving complex problems and delivering data-driven solutions that drive business success.
-        </motion.p>
+           I specialise in building dashboards, analysing performance data, and uncovering insights that drive growth. I focus on clarity, efficiency, and measurable impact.
+
+        </motion.h3>
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
             <motion.a href="#contact"
             initial={{opacity:30, opacity:0}}

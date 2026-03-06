@@ -45,7 +45,7 @@ const About = () => {
         whileInView={{opacity:1,y:0}}
         transition={{duration:0.6, delay:0.8}}>
     <p className='mb-10 max-w-2xl font-Ovo'>
-      I am a data Analyst with expertise in Python, R, SQL, Power BI, and Excel, with hands-on experience in machine learning, statistical modeling, and data visualization. 
+     I work at the intersection of data, logic, and decision-making. My background in software engineering allows me to approach analytics with structure and precision.
      </p>
 
     <motion.ul 
@@ -77,17 +77,17 @@ const About = () => {
                 whileInView={{opacity:1}}
                 transition={{delay:0.4, duration:0.4}}>
       {toolsData.map((tool, index) => (
-        <motion.li
-          whileHover={{scale:1.1}}
-
-          key={index}
-          className='flex items-center justify-center w-12 sm:w-14 aspect-square
-                     border border-gray-400 rounded-lg cursor-pointer
-                     hover:-translate-y-1 duration-500'
-        >
-          <Image src={tool} alt='tool' className='w-5 sm:w-7' />
-        </motion.li>
-      ))}
+  <motion.li
+    whileHover={{ scale: 1.1 }}
+    key={index}
+    className="relative flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-full cursor-pointer hover:-translate-y-1 duration-500 group"
+  >
+    <Image src={tool.icon} alt={tool.text} className="w-5 sm:w-7" />
+    <span className="absolute -bottom-6 left-1/2 -translate-x-1/2 text-xs text-gray-600 dark:text-gray-700 whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+      {tool.text}
+    </span>
+  </motion.li>
+))}
     </motion.ul>
   </motion.div>
 </div>

@@ -125,21 +125,25 @@ export const workData = [
         title: 'Real Estate Preditiction',
         description: 'Machine Learning',
         bgImage: '/real_estate.jpg',
+        githubLink:"https://github.com/anashadfi1/housing-exploratory-data-analysis-project"
     },
     {
         title: 'Gaming Analytics',
         description: 'Data Science',
         bgImage: '/gaming.jpg',
+        githubLink:"https://github.com/anashadfi1/housing-exploratory-data-analysis-project"
     },
     {
-        title: 'Language Model',
-        description: 'Data Science',
+        title: 'Loss function',
+        description: 'Language Model',
         bgImage: '/language_model.jpg',
+        githubLink:"https://github.com/anashadfi1/language-model-for-loss-function-using-pytorch-data-visualisation-with-matplotlib"
     },
     {
         title: 'Titanic survivors',
         description: 'Data Science',
         bgImage: '/titanic.jpg',
+        githubLink:"https://github.com/anashadfi1/titanic-survivors-kaggle-competition"
     },
 ]
 
@@ -151,11 +155,11 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Python, Pandas, Scikit-Learn, Pytorch' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'SQL, Python, DAX' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Software Engineer' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
 
 export const toolsData = [
-    assets.python_icon, assets.numpy_icon,  assets.dark_pandas,assets.sklearn_icon, langchain_logo,jupyter, assets.r_icon, assets.powerbi
+    {icon:assets.python_icon, text:'Python'}, {icon:assets.numpy_icon, text:'numopy'},  {icon:assets.dark_pandas, text:"Pandas"},{icon:assets.sklearn_icon, text:'scikit-learn'}, {icon: assets.langchain_logo, text:"Langchain"},{icon:assets.jupyter, text:"Jupyter"}, {icon:assets.r_icon, text:"R"},{ icon:assets.powerbi, text:"PowerBI"}
 ];
