@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Footer = () => {
   return (
     <div >
-        <div className='text-center font-Ovo'>
+        <div className='text-center'>
             <Image src={assets.dark_logo} alt='' className='w-25 mx-auto mb-2'/>
             <div className="flex items-center justify-center gap-4">
             <Image src={assets.mail_icon} alt="Email icon" className="w-5 " />

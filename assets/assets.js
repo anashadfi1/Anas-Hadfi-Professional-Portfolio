@@ -8,14 +8,14 @@ import project_icon_dark from './project-icon-dark.png';
 import vscode from './vscode.png';
 import firebase from './firebase.png';
 import r_icon from './r_icon.png';
-import powerbi from './Power_BI.jpg';
-import sklearn_icon from './sklearn_icon.png';
+import powerbi from './powerbi.svg';
+import sklearn_icon from './sklearn.svg';
 import js_icon from './js_icon.png';
 import numpy_icon from './numpy-icon.png';
 import fastapi_icon from './fastapi-icon.png';
 import tailwind_icon from './tailwind_icon.png';
 import github_icon from './github_icon.png';
-import python_icon from './python_icon.png';
+import python_icon from './python.svg';
 import react_icon from './react_icon.png';
 import next_icon from './next_icon.png';
 import figma from './figma.png';
@@ -55,7 +55,7 @@ import csharp from './csharp.png'
 import asp from './asp.png'
 import angular from './Angular.png'
 import langchain_logo from "./langchain_logo.png"
-import dark_pandas from "./dark_pandas.png"
+import dark_pandas from "./pandas.svg"
 import jupyter from "./jupyter.png"
 export const assets = {
     jupyter,
@@ -157,5 +157,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.python_icon, assets.numpy_icon,  assets.dark_pandas,assets.sklearn_icon,assets.pytorch_logo, langchain_logo,jupyter, assets.r_icon, assets.powerbi
+    assets.python_icon, assets.numpy_icon,  assets.dark_pandas,assets.sklearn_icon, langchain_logo,jupyter, assets.r_icon, assets.powerbi
 ];

@@ -23,7 +23,6 @@ const Work = () => {
             whileInView={{opacity:1}}
             transition={{delay:0.7, duration:0.5}}
                 className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-                   {/* Explore a collection of projects showcasing my expertise in Data Science, analytics and engineering. */}
         </motion.p>
         <motion.div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 my-10'
         initial={{opacity:0}}
@@ -54,7 +53,20 @@ const Work = () => {
 
                 </motion.div>))
             }
+                
         </motion.div>
+        <a
+                    href=""
+                    className="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] 
+                    border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500"
+                    >
+                    Show more
+                    <Image
+                        src={assets.right_arrow_bold}
+                        alt="Right arrow"
+                        className="w-4"
+                    />
+                </a>
     </motion.div>
   )
 }
