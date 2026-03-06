@@ -57,7 +57,9 @@ import angular from './Angular.png'
 import langchain_logo from "./langchain_logo.png"
 import dark_pandas from "./pandas.svg"
 import jupyter from "./jupyter.png"
+import matplotlib from "./Matplotlib.png"
 export const assets = {
+    matplotlib,
     jupyter,
     dark_pandas,
     langchain_logo,
@@ -161,5 +163,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    {icon:assets.python_icon, text:'Python'}, {icon:assets.numpy_icon, text:'numopy'},  {icon:assets.dark_pandas, text:"Pandas"},{icon:assets.sklearn_icon, text:'scikit-learn'}, {icon: assets.langchain_logo, text:"Langchain"},{icon:assets.jupyter, text:"Jupyter"}, {icon:assets.r_icon, text:"R"},{ icon:assets.powerbi, text:"PowerBI"}
+    {icon:assets.python_icon, text:'Python'}, {icon:assets.numpy_icon, text:'Numpy'},  {icon:assets.dark_pandas, text:"Pandas"},{icon:assets.matplotlib, text:'Matplotlib'},{icon:assets.sklearn_icon, text:'scikit-learn'}, {icon: assets.langchain_logo, text:"Langchain"},{icon:assets.jupyter, text:"Jupyter"}, {icon:assets.r_icon, text:"R"},{ icon:assets.powerbi, text:"PowerBI"}
 ];
