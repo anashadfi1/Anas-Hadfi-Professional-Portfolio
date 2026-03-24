@@ -13,12 +13,12 @@ const Footer = () => {
         <Image 
           src={assets.dark_logo} 
           alt="Logo" 
-          className="w-28 mx-auto mb-4 opacity-80 hover:opacity-100 transition duration-300"
+          className="w-22 mx-auto mb-4 transition duration-300"
         />
 
         {/* Email */}
         <div className="flex items-center justify-center gap-3 text-sm text-gray-500 hover:text-gray-800 transition">
-          <Image src={assets.mail_icon} alt="Email icon" className="w-5 opacity-70" />
+          <Image src={assets.mail_icon} alt="Email icon" className="w-5" />
           <span className="tracking-wide">anashadfi1@gmail.com</span>
         </div>
 
@@ -31,7 +31,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto px-6 py-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm">
         
         <p className="text-gray-500">
-          © 2026 <span className="text-gray-800 font-semibold">Anas Hadfi</span>. Built with NextJs
+          ©2026 <span className="text-gray-800 font-semibold">Anas Hadfi</span>. Built with NextJs
         </p>
 
         {/* Social Links */}
