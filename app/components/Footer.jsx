@@ -31,7 +31,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto px-6 py-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm">
         
         <p className="text-gray-500">
-          ©2026 <span className="text-gray-800 font-semibold">Anas Hadfi</span>. Built with NextJs
+          ©2026 Anas Hadfi. Built with NextJs
         </p>
 
         {/* Social Links */}
